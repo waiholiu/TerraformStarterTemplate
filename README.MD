@@ -4,7 +4,7 @@ This is a starter template for managing Azure resources using Terraform. In Terr
 
 It also uses the variables.tfvars file that can be used in both bash scripts and Terraform configuration files. This allows you to have a single source of truth for your variables, and to ensure there is a common standard so that you have all your state store resources in one place corresponding to the resource group name.
 
-This template really is designed for 
+This template probably isn't really desigend for production (or maybe it is, I haven't thought about it yet) but it's useful for me cause I create a lot of Terraform projects and I want to have a consistent way of managing my Terraform state store resources.
 
 # Prequisites
 
